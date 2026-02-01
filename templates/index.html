@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Analizador BETO</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+
+<body>
+    <div class="container">
+        <h1>Sentiment Analisys</h1>
+        <form action="/web-analyze" method="post">
+            <textarea name="text" placeholder="Ingresa texto en español...">{{ text if text }}</textarea>
+            <button type="submit">Analizar Texto</button>
+        </form>
+        {% if error_msg %}
+            <div class="result-card" style="background: #fde8e8; border-left: 5px solid #f44336;">
+                    <p style="color: #d32f2f;"><strong>⚠️ Error:</strong> {{ error_msg }}</p>
+            </div>
+        {% endif %}
+
+        {% if result %}
+        <div class="result-card">
+            <p><strong>Sentimiento:</strong> {{ result }}</p>
+            <p><strong>Confianza:</strong> {{ confidence }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

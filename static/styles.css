@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container {
+    background: lightgray;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+h1 { color: #2c3e50; text-align: center; }
+
+.label-estilo {
+    border: none;                /* Quita el borde sólido */
+    background-color: transparent; /* Quita el fondo blanco */
+    outline: none;               /* Quita el borde azul al hacer clic */
+    padding: 0;                  /* Ajusta el espaciado si es necesario */
+    font-size: inherit;          /* Mantiene el tamaño de texto */
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    background-color: #34db77;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover { background-color: #2980b9; } 
+.result-card { 
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #e8f4fd;
+    border-left: 5px solid #3498db;
+}
+.result-card h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}

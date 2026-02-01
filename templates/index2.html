@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Analizador BETO</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+
+<body>
+    <div class="container">
+        <h1>Sentiment Analisys</h1>
+        <p>Por favor, responda las siguientes preguntas:</p>
+        <p>Si tus preguntas son cerradas o las respuestas son breves, une la pregunta y la respuesta para que el modelo entienda el "sobre qué" se está opinando. </p>
+        <form action="/web-analyze-preguntas" method="post">
+            <label>Pregunta 1: ¿Votarias por Noboa? y porque<textarea type="text" name="p1" required></textarea></label><br>
+            <label>Pregunta 2: ¿Cual es tu percepción de la seguridad en el pais?<textarea type="text" name="p2" required></textarea></label><br>
+            <label>Pregunta 3: ¿Crees que el gobierno ha manejado bien la crisis sanitaria? Porque<textarea type="text" name="p3" required></textarea></label><br>
+            <button type="submit">Enviar Encuesta</button>
+        </form>
+        {% if error_msg %}
+            <div class="result-card" style="background: #fde8e8; border-left: 5px solid #f44336;">
+                    <p style="color: #d32f2f;"><strong>⚠️ Error:</strong> {{ error_msg }}</p> 
+            </div>
+        {% endif %}
+
+        {% if resultados %}
+            <h3>Resultados:</h3>
+            
+            {% for res in resultados %} 
+                <li>Análisis {{loop.index}}: {{ res.question }}</li>    
+                    <ul>
+                        <li>Sentimiento : {{ res.label }} </li>
+                        <li>Nivel de Confianza: {{ res.score | round(4) }}</li>
+                   </ul>
+            {% endfor %}
+            
+        {% endif %}
+        <button><a href="/encuesta" class="btn btn-secondary">Limpiar Resultados</a></button>
+    </div>
+</body>
+
+</html>
