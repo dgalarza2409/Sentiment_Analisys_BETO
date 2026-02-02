@@ -35,3 +35,93 @@
 2026-02-01 15:09:35,556 - INFO - Resultado: NEG con confianza 0.9993
 2026-02-01 15:09:35,676 - INFO - Procesando contexto: ¿Consideras que es posible revertir el cambio climático? [SEP]  Se requiere un compromiso serio de l...
 2026-02-01 15:09:35,676 - INFO - Resultado: NEU con confianza 0.7097
+2026-02-01 15:15:47,967 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-01 15:15:48,043 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/finiteautomata/beto-sentiment-analysis/9384c7f339a6d62c9e2e1d686f225f92e3a3353b/config.json "HTTP/1.1 200 OK"
+2026-02-01 15:15:48,244 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-01 15:15:48,245 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-02-01 15:15:48,364 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis "HTTP/1.1 200 OK"
+2026-02-01 15:15:48,697 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/main "HTTP/1.1 200 OK"
+2026-02-01 15:15:48,807 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/discussions?p=0 "HTTP/1.1 200 OK"
+2026-02-01 15:15:48,938 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-02-01 15:15:49,077 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-02-01 15:15:49,241 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-02-01 15:15:49,482 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-01 15:15:49,615 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-01 15:19:10,383 - INFO - Procesando contexto: ¿Dame tu opinión de la situación clímatica mundial? [SEP]  En los últimos años, específicamente el l...
+2026-02-01 15:19:10,383 - INFO - Resultado: NEG con confianza 0.8671
+2026-02-01 15:19:10,517 - INFO - Procesando contexto: ¿Crees que los gobiernos han manejado bien la problematica del cambio climático? [SEP]  LOs foros mu...
+2026-02-01 15:19:10,517 - INFO - Resultado: NEG con confianza 0.9325
+2026-02-01 15:19:10,636 - INFO - Procesando contexto: ¿Consideras que es posible revertir el cambio climático? [SEP]  UN compromiso serio de los gobernate...
+2026-02-01 15:19:10,637 - INFO - Resultado: NEU con confianza 0.9943
+2026-02-01 15:39:23,009 - INFO - Procesando contexto: ¿Dame tu opinión de la situación clímatica mundial? [SEP]  En los últimos años, específicamente el l...
+2026-02-01 15:39:23,009 - INFO - Resultado: NEG con confianza 0.8671
+2026-02-01 15:39:23,144 - INFO - Procesando contexto: ¿Crees que los gobiernos han manejado bien la problematica del cambio climático? [SEP]  LOs foros mu...
+2026-02-01 15:39:23,144 - INFO - Resultado: NEG con confianza 0.9325
+2026-02-01 15:39:23,257 - INFO - Procesando contexto: ¿Consideras que es posible revertir el cambio climático? [SEP]  UN compromiso serio de los gobernate...
+2026-02-01 15:39:23,257 - INFO - Resultado: NEU con confianza 0.9943
+2026-02-01 15:40:26,721 - INFO - Procesando contexto: ¿Dame tu opinión de la situación clímatica mundial? [SEP]  En los últimos años, específicamente el l...
+2026-02-01 15:40:26,721 - INFO - Resultado: NEG con confianza 0.8671
+2026-02-01 15:40:26,855 - INFO - Procesando contexto: ¿Crees que los gobiernos han manejado bien la problematica del cambio climático? [SEP]  LOs foros mu...
+2026-02-01 15:40:26,855 - INFO - Resultado: NEG con confianza 0.9325
+2026-02-01 15:40:26,967 - INFO - Procesando contexto: ¿Consideras que es posible revertir el cambio climático? [SEP]  UN compromiso serio de los gobernate...
+2026-02-01 15:40:26,967 - INFO - Resultado: NEU con confianza 0.9943
+2026-02-01 15:42:26,073 - INFO - Procesando contexto: ¿Dame tu opinión de la situación clímatica mundial? [SEP]  En los últimos años, específicamente el l...
+2026-02-01 15:42:26,073 - INFO - Resultado: NEG con confianza 0.8671
+2026-02-01 15:42:26,194 - INFO - Procesando contexto: ¿Crees que los gobiernos han manejado bien la problematica del cambio climático? [SEP]  LOs foros mu...
+2026-02-01 15:42:26,194 - INFO - Resultado: NEG con confianza 0.9325
+2026-02-01 15:42:26,308 - INFO - Procesando contexto: ¿Consideras que es posible revertir el cambio climático? [SEP]  UN compromiso serio de los gobernate...
+2026-02-01 15:42:26,308 - INFO - Resultado: NEU con confianza 0.9943
+2026-02-01 18:26:47,091 - INFO - Procesando contexto: ¿Dame tu opinión de la situación clímatica mundial? [SEP]  Debido a la decidia de los gobernantes no...
+2026-02-01 18:26:47,091 - INFO - Resultado: NEG con confianza 0.9969
+2026-02-01 18:26:47,179 - INFO - Procesando contexto: ¿Crees que los gobiernos han manejado bien la problematica del cambio climático? [SEP]  NO...
+2026-02-01 18:26:47,180 - INFO - Resultado: NEU con confianza 0.9112
+2026-02-01 18:26:47,273 - INFO - Procesando contexto: ¿Consideras que es posible revertir el cambio climático? [SEP]  si siempre y cuando exista el intere...
+2026-02-01 18:26:47,274 - INFO - Resultado: NEU con confianza 0.9938
+2026-02-02 12:14:45,032 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-02 12:14:45,141 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/finiteautomata/beto-sentiment-analysis/9384c7f339a6d62c9e2e1d686f225f92e3a3353b/config.json "HTTP/1.1 200 OK"
+2026-02-02 12:14:45,705 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-02 12:14:45,846 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis "HTTP/1.1 200 OK"
+2026-02-02 12:14:46,129 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/main "HTTP/1.1 200 OK"
+2026-02-02 12:14:46,269 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/discussions?p=0 "HTTP/1.1 200 OK"
+2026-02-02 12:14:46,457 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-02-02 12:14:46,568 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-02-02 12:14:46,756 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-02-02 12:14:49,180 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-02 12:14:49,312 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-02 12:15:36,594 - INFO - Procesando texto: Que mierda pasa...
+2026-02-02 12:15:36,594 - INFO - Resultado: NEG con confianza 0.9479
+2026-02-02 12:21:27,484 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-02 12:21:27,564 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/finiteautomata/beto-sentiment-analysis/9384c7f339a6d62c9e2e1d686f225f92e3a3353b/config.json "HTTP/1.1 200 OK"
+2026-02-02 12:21:27,729 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-02 12:21:27,831 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis "HTTP/1.1 200 OK"
+2026-02-02 12:21:28,058 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/main "HTTP/1.1 200 OK"
+2026-02-02 12:21:28,212 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/discussions?p=0 "HTTP/1.1 200 OK"
+2026-02-02 12:21:28,346 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-02-02 12:21:28,453 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-02-02 12:21:28,498 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-02 12:21:28,601 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-02-02 12:21:28,617 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-02 12:24:08,015 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-02 12:24:08,091 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/finiteautomata/beto-sentiment-analysis/9384c7f339a6d62c9e2e1d686f225f92e3a3353b/config.json "HTTP/1.1 200 OK"
+2026-02-02 12:24:08,244 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-02 12:24:08,357 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis "HTTP/1.1 200 OK"
+2026-02-02 12:24:08,487 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/main "HTTP/1.1 200 OK"
+2026-02-02 12:24:08,604 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/discussions?p=0 "HTTP/1.1 200 OK"
+2026-02-02 12:24:08,732 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-02-02 12:24:08,840 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-02-02 12:24:08,941 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-02 12:24:08,959 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-02-02 12:24:09,060 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-02 12:24:41,495 - INFO - Procesando texto: pato loco...
+2026-02-02 12:24:41,495 - INFO - Resultado: NEG con confianza 0.9451
+2026-02-02 12:32:43,414 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-02 12:32:43,497 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/finiteautomata/beto-sentiment-analysis/9384c7f339a6d62c9e2e1d686f225f92e3a3353b/config.json "HTTP/1.1 200 OK"
+2026-02-02 12:32:43,629 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-02 12:32:43,754 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis "HTTP/1.1 200 OK"
+2026-02-02 12:32:43,882 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/main "HTTP/1.1 200 OK"
+2026-02-02 12:32:44,025 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/discussions?p=0 "HTTP/1.1 200 OK"
+2026-02-02 12:32:44,185 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-02-02 12:32:44,314 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-02-02 12:32:44,370 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-02 12:32:44,432 - INFO - HTTP Request: HEAD https://huggingface.co/finiteautomata/beto-sentiment-analysis/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-02-02 12:32:44,488 - INFO - HTTP Request: GET https://huggingface.co/api/models/finiteautomata/beto-sentiment-analysis/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
