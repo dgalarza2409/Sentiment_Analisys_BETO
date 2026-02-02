@@ -1,4 +1,4 @@
-# Teoría y desarrollo práctico de un proyecto de Análisis de sentimientos utilizando BETO, FastApi, Uvicorn, Jinja2 templates 
+# Desarrollo práctico de un proyecto de Análisis de sentimientos utilizando BETO, FastApi, Uvicorn, Jinja2 templates 
 
 ### Un modelo de IA para utilizar de una manera eficiente los LLM (Large Language Model) previamente entrenados con inmensos datasets, y de esta manera evitar el alto costo de un desarrollo desde cero.
 
